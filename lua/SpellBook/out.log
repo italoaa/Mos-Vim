@@ -1,0 +1,68 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.009  000.009: --- NVIM STARTING ---
+000.857  000.848: locale set
+001.458  000.601: inits 1
+001.485  000.027: window checked
+001.492  000.007: parsing arguments
+001.747  000.255: expanding arguments
+001.830  000.083: inits 2
+002.309  000.479: init highlight
+002.311  000.002: waiting for UI
+004.987  002.676: done waiting for UI
+005.005  000.018: initialized screen early for UI
+084.987  000.261  000.261: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/syntax/syncolor.vim
+085.393  000.809  000.548: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/syntax/synload.vim
+091.743  000.020  000.020: sourcing /Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gdscript.vim
+091.817  000.019  000.019: sourcing /Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gomod.vim
+091.898  000.027  000.027: sourcing /Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/query.vim
+092.502  006.996  006.931: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/filetype.vim
+093.704  000.534  000.534: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/scripts.vim
+094.046  009.613  001.273: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/syntax/syntax.vim
+094.274  000.020  000.020: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/filetype.vim
+094.698  000.044  000.044: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/ftplugin.vim
+095.603  000.140  000.140: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/syntax/syncolor.vim
+096.534  000.156  000.156: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/syntax/syncolor.vim
+097.359  000.216  000.216: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/syntax/syncolor.vim
+098.901  003.614  003.102: sourcing /Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim/colors/nord.vim
+099.030  093.578  080.287: sourcing /Users/italoamaya/.config/nvim/init.lua
+099.044  000.462: sourcing vimrc file(s)
+099.197  000.046  000.046: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/indent.vim
+101.446  000.273  000.273: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/gzip.vim
+101.531  000.021  000.021: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/health.vim
+101.666  000.078  000.078: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/man.vim
+102.702  000.192  000.192: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+102.912  001.189  000.997: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/matchit.vim
+103.145  000.170  000.170: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/matchparen.vim
+103.242  000.030  000.030: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/netrwPlugin.vim
+103.494  000.015  000.015: sourcing /Users/italoamaya/.local/share/nvim/rplugin.vim
+103.502  000.203  000.187: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/rplugin.vim
+103.665  000.105  000.105: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/shada.vim
+103.772  000.033  000.033: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/spellfile.vim
+103.992  000.146  000.146: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/tarPlugin.vim
+104.162  000.100  000.100: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/tohtml.vim
+104.303  000.042  000.042: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/tutor.vim
+104.613  000.224  000.224: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/plugin/zipPlugin.vim
+105.605  000.691  000.691: sourcing /Users/italoamaya/.config/nvim/plugin/packer_compiled.lua
+106.511  004.115: loading plugins
+111.371  004.390  004.390: sourcing /Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-treesitter/plugin/nvim-treesitter.vim
+111.720  000.021  000.021: sourcing /Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gdscript.vim
+111.795  000.019  000.019: sourcing /Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gomod.vim
+111.873  000.026  000.026: sourcing /Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/query.vim
+112.185  001.218: loading packages
+112.608  000.423: loading after plugins
+112.618  000.011: inits 3
+113.630  001.012: reading ShaDa
+115.181  001.551: opening buffers
+115.209  000.029: BufEnter autocommands
+115.211  000.002: editing files in windows
+115.241  000.030: VimEnter autocommands
+115.243  000.002: UIEnter autocommands
+115.611  000.222  000.222: sourcing /usr/local/Cellar/neovim/HEAD-f2205b8/share/nvim/runtime/autoload/provider/clipboard.vim
+115.620  000.155: before starting main loop
+116.518  000.898: first screen update
+116.520  000.002: --- NVIM STARTED ---
