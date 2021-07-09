@@ -44,7 +44,7 @@
 
 
 ### Why make this?
-The reason of making this project is very simple. I was using [Lunar Vim](https://github.com/ChristianChiarulli/LunarVim/tree/master) by [Christian Chiarulli](https://github.com/ChristianChiarulli) but I was not satisfied because I wanted to learn to make one, also there started to happen many updates and I couldn't keep up. So here it is a Neo Vim config made by me but inspired heavily in Lunar Vim.
+The reason of making this project is very simple. I was using [Lunar Vim](https://github.com/ChristianChiarulli/LunarVim/tree/master) by [Christian Chiarulli](https://github.com/ChristianChiarulli) but I was not satisfied because I wanted to learn to make one myself. Also so many updates started to happen and I couldn't keep up. So here it is a Neo Vim config made by me but inspired heavily in Lunar Vim. ( Almost all the code is from there just re worked it)
 
 
 
