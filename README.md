@@ -1,3 +1,4 @@
+<div align="center">
 # Mostrosity-vim
 ```
               ...                            
@@ -22,6 +23,7 @@
   `:::::`::::::::;' /  / `:#                  
    ::::::`:::::;'  /  /   `#
 ```
+</div>
 # Description
 ### Why use mostrosity vim?
 If you suffer with understanding how vim works and want to learn a lot, Mostrority is for You.
