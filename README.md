@@ -1,5 +1,9 @@
 <div align="center">
+  
+  
 # Mostrosity-vim
+  
+  
 ```
               ...                            
              ;::::;                           
@@ -23,6 +27,8 @@
   `:::::`::::::::;' /  / `:#                  
    ::::::`:::::;'  /  /   `#
 ```
+  
+  
 </div>
 # Description
 ### Why use mostrosity vim?
