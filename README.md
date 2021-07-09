@@ -36,7 +36,7 @@ The reason of making this project is very simple. I was using Lunar Vim by <--> 
 
 
 
-## How to Use Mostrosity Vim?
+# How to Use Mostrosity Vim?
 1. Install in one command
 ```
 $ one liner goes here
@@ -50,7 +50,7 @@ img of file structure
 #### Sourcing Structure
 Sourcing I am refering of the stack of calling require on lua files.
 
-### How to build ontop?
+### How to make it your own?
 - how to add plugins
 - how to add configs to new plugins
 - how to edit the base config
