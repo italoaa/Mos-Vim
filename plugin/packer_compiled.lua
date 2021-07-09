@@ -69,17 +69,88 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/barbar.nvim"
+  },
+  ["lsp-rooter.nvim"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/lsp-rooter.nvim"
+  },
+  ["nvcode-color-schemes.vim"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim"
+  },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
+  },
+  ["nvim-comment"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-comment"
+  },
+  ["nvim-compe"] = {
+    after_files = { "/Users/italoamaya/.local/share/nvim/site/pack/packer/opt/nvim-compe/after/plugin/compe.vim" },
+    config = { "\27LJ\2\nL\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\vconfig\"SpellBook.Packer-Spells.Compe\frequire\0" },
+    loaded = false,
+    needs_bufread = false,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/opt/nvim-compe"
+  },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-dap"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+  },
+  ["nvim-lspinstall"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-lspinstall"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+  },
   ["nvim-treesitter"] = {
+    config = { "\27LJ\2\nB\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0'SpellBook.Packer-Spells.TreeSitter\frequire\0" },
     loaded = true,
     path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/packer.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["vim-sanegx"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/vim-sanegx"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/Users/italoamaya/.local/share/nvim/site/pack/packer/start/which-key.nvim"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: nvim-treesitter
+time([[Config for nvim-treesitter]], true)
+try_loadstring("\27LJ\2\nB\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0'SpellBook.Packer-Spells.TreeSitter\frequire\0", "config", "nvim-treesitter")
+time([[Config for nvim-treesitter]], false)
+vim.cmd [[augroup packer_load_aucmds]]
+vim.cmd [[au!]]
+  -- Event lazy-loads
+time([[Defining lazy-load event autocommands]], true)
+vim.cmd [[au InsertEnter * ++once lua require("packer.load")({'nvim-compe'}, { event = "InsertEnter *" }, _G.packer_plugins)]]
+time([[Defining lazy-load event autocommands]], false)
+vim.cmd("augroup END")
 if should_profile then save_profiles() end
 
 end)

@@ -7,9 +7,11 @@
 
 ---- Loads Nvim Configs -----
 
-require('SpellBook.Configs-C.NvimConfigs')
-
+require('SpellBook.Config-Spells.NvimConfigs')
 ---- Loads Colorscheme Stuff ----
 
-require('SpellBook.Configs-C.ColorSchemeConfig')
+require('SpellBook.Config-Spells.ColorSchemeConfig')
 
+---- Loads Keybings ----
+
+require('SpellBook.Config-Spells.KeyBindings')

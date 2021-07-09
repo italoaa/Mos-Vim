@@ -1,0 +1,1 @@
+-- This is a keybinding plugin so it is in keybindings under the Config Spells

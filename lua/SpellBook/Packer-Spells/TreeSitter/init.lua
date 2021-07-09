@@ -3,9 +3,10 @@ if not Tree_Status then
     return
 end
 
+
 treesitter_configs.setup {
-  ensure_installed = true, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
-  ignore_install = true,
+  ensure_installed = 'all', -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  ignore_install = {"haskell"},
   matchup = {
     enable = true, -- mandatory, false will disable the whole extension
     -- disable = { "c", "ruby" },  -- optional, list of language that will be disabled

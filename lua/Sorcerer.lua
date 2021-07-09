@@ -48,9 +48,12 @@
 ---------------------------- Initializing the ritual ------------------------------------
 -----------------------------------------------------------------------------------------
 
+require('Globals')
+
+require('SpellBook.Config')
+
 require('SpellBook.Packer')
 
 require('SpellBook.Lsp')
 
-require('SpellBook.Config')
 
