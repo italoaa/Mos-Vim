@@ -56,10 +56,10 @@ $ one liner goes here
 2. Run `:PackerInstall`
 3. DONE
 
-### How it Works?
-#### File structure
+## How it Works?
+### File structure
 img of file structure
-#### Sourcing Structure
+### Sourcing Structure
 Sourcing I am refering of the stack of calling require on lua files.
 
 ### How to make it your own?
