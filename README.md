@@ -1,37 +1,14 @@
 <div align="center">
   
   
-# Mostrosity-vim
+# Mos-vim
   
-  
-```
-              ...                            
-             ;::::;                           
-           ;::::; :;                          
-         ;:::::'   :;                         
-        ;:::::;     ;.                        
-       ,:::::'       ;           OOO\         
-       ::::::;       ;          OOOOO\        
-       ;:::::;       ;         OOOOOOOO       
-      ,;::::::;     ;'         / OOOOOOO      
-    ;:::::::::`. ,,,;.        /  / DOOOOOO    
-  .';:::::::::::::::::;,     /  /     DOOOO   
- ,::::::;::::::;;;;::::;,   /  /        DOOO  
-;`::::::`'::::::;;;::::: ,#/  /          DOOO 
-:`:::::::`;::::::;;::: ;::#  /            DOOO
-::`:::::::`;:::::::: ;::::# /              DOO
-`:`:::::::`;:::::: ;::::::#/               DOO
- :::`:::::::`;; ;:::::::::##                OO
- ::::`:::::::`;::::::::;:::#                OO
- `:::::`::::::::::::;'`:;::#                O 
-  `:::::`::::::::;' /  / `:#                  
+![image](https://user-images.githubusercontent.com/72895337/125321235-1794ce80-e302-11eb-88f3-27ee08231d9b.png)
 
   
- 
-```
-  
-  
 </div>
+
+Btw spells is just a funny twist to a folder with resources 
 
 # Description
 
