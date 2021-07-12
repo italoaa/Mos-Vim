@@ -49,9 +49,9 @@ The reason of making this project is very simple. I was using [Lunar Vim](https:
 
 
 # How to Use Mostrosity Vim?
-1. Install in one command
+1. Clone the github repo and make sure to download node,yarn,etc whatever it tells you, also you need nvim nightly.
 ```
-$ one liner goes here
+$ git clone URL
 ```
 2. Run `:PackerInstall`
 3. DONE
@@ -63,7 +63,7 @@ img of file structure
 Sourcing I am refering of the stack of calling require on lua files.
 
 ### How to make it your own?
-- how to add plugins
-- how to add configs to new plugins
-- how to edit the base config
-- Where to look
+- Add plugins by editing the Packer.lua file
+- Add those plugins configs to the Packer-Spells folder (the config should be inside a folder and inside a init.lua so you can call the folder directily)
+- Edit the base config
+- Remember this is only a config for you to build ontop I recommend to understand how it works so you can use this config efectively to create your own
