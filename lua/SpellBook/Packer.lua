@@ -77,7 +77,11 @@ return require("packer").startup(function(use)
         }
 
     -- Telescope
-    use {"nvim-telescope/telescope.nvim"}
+    use {
+      'nvim-telescope/telescope.nvim',
+      requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'},{'nvim-telescope/telescope-fzy-native.nvim'}}
+    }
+
 
     -- Debugger
     use {"mfussenegger/nvim-dap",
@@ -100,8 +104,11 @@ return require("packer").startup(function(use)
 
     -- Writing
     use {"windwp/nvim-autopairs"}
-    use {"terrortylor/nvim-comment"}
-
+    use {"terrortylor/nvim-comment",
+            config = function()
+               require('SpellBook.Packer-Spells.Comment')
+            end,
+}
     -- Keybinding
     use {"folke/which-key.nvim"}
 
