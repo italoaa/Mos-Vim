@@ -35,7 +35,7 @@ $ git clone URL
 
 ## How it Works?
 ### File structure
-<img scr="https://user-images.githubusercontent.com/72895337/125215346-e0320d80-e280-11eb-8ea1-96febef22d63.png">
+Some files source another and another. The files the packer.lua sources are its spells so packer-Spells/ directory.
 ### Sourcing Structure
 Sourcing I am refering to how files call other files and so on so you can know if you are efiting the config where to place configs and where to call
 ![image](https://user-images.githubusercontent.com/72895337/125215326-cee90100-e280-11eb-9a6c-e62be0364973.png)
